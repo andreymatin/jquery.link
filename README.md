@@ -32,10 +32,10 @@ Set up jQuery Link:
 
 ## Configuration
 
-tabs - opens new tab after click
-links - custom link
-auto - detect urls
-twitter - detect twitter links
+| tabs | opens new tab after click
+| links | custom link
+| auto | detect urls
+| twitter | detect twitter links
 
 ## Todo
 
@@ -55,5 +55,5 @@ I had plans to create just plugin with current functionality but in process I in
 
 ## Inspiration
 
-https://github.com/AnSavvides/jquery.linky
-https://github.com/maranomynet/linkify
+- https://github.com/AnSavvides/jquery.linky
+- https://github.com/maranomynet/linkify
