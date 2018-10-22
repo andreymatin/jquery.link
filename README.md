@@ -32,10 +32,12 @@ Set up jQuery Link:
 
 ## Configuration
 
-| tabs | opens new tab after click
-| links | custom link
-| auto | detect urls
-| twitter | detect twitter links
+| property | description              |
+|----------|--------------------------|
+| tabs     | open new tab after click |
+| links    | custom link              |
+| auto     | detect urls              |
+| twitter  | detect twitter links     |
 
 ## Todo
 
