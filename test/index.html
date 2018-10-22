@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="../node_modules/qunit/qunit/qunit.css">
+
+  <script src="../node_modules/qunit/qunit/qunit.js"></script>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../dist/jquery.link.js"></script>
+</head>
+
+<body>
+  <div id="qunit"></div>
+
+  <div id="qunit-fixture">
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Quasi ea id nemo <a href="#">illum</a> aliquam odit? Repudiandae laudantium <a href="https://google.com">libero</a> quidem quas, sunt natus corrupti,
+      et dicta eaque impedit itaque maxime <a href="#" target="_blank">amet?</a>
+    </p>
+
+    <p>
+      Lorem ipsum, http://google.com dolor sit amet https://google.com consectetur adipisicing elit. Quae, commodi minima? Blanditiis nisi non tempora, deleniti sapiente rerum voluptatem eos @twitter illo voluptate quaerat natus similique accusantium necessitatibus nihil! Molestias!
+    </p>
+
+    <div data-href="http://google.com/" data-target="_blank">
+      Link Block #1
+    </div>
+
+    <span data-href="http://google.com/">
+      Link Block #2
+    </span>
+  </div>
+
+  <script src="tests.js"></script>
+</body>
+
+</html>
