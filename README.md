@@ -1,4 +1,4 @@
-# jQuery Link [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# jQuery Link
 
 jQuery Link is a jQuery plugin for creating various anchors
 
